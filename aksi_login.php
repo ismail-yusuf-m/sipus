@@ -19,7 +19,7 @@ if(isset($_POST['submit']))
         $_SESSION['sesi']       = $data_admin['nm_admin'];
 
         echo "<script>alert('Anda berhasil Log In');</script>";
-        echo "<meta http-equiv='refresh' content='0; url=blank.php?user=$sesi'>";
+        echo "<meta http-equiv='refresh' content='0; url=home.php?user=$sesi'>";
     }else
     {
         echo "<script>alert('Username atau Password Anda salah, Anda gagal login');</script>";
